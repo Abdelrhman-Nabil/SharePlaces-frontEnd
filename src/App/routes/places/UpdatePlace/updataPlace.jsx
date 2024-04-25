@@ -105,7 +105,7 @@ const UpdatePlace = () => {
       {error && <BackDrop />}
       {error && <ErrorModal data={error} onClick={clearError} />}
 
-      {!isLoading && loadedPlaces &&<form className="place-form" onSubmit={placeUpdateSubmitHandler}>
+      {!isLoading && loadedPlaces &&<form className="update-place-form" onSubmit={placeUpdateSubmitHandler}>
         <Input
           id="title"
           element="input"

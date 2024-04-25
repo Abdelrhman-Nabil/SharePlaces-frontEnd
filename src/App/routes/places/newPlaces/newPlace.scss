@@ -12,3 +12,9 @@
    position: relative;
    width: 80%;
   }
+  @media screen and (max-width: 768px) {
+    .place-form {
+       position: relative;
+       top: -60px;
+    }
+  }
